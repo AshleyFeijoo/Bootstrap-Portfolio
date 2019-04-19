@@ -1,8 +1,11 @@
 nav.navbar.navbar-expand-lg{
-    background-color:#eee;
+    background-color:white;
     padding:0;
 
+
 }
+
+
 
 .head1{
     color: #ffffff;
@@ -16,7 +19,17 @@ nav.navbar.navbar-expand-lg{
         line-height: 1.5;
         font-size: 0.8em;
         color: #777777;
-        background-image: url("../images/concrete_seamless.png");
-        background-repeat: repeat;
+        max-width:960px;
+        background-color:white;
         font-family: "Arial", "Helvetica Neue", "Helvetica, sans-serif";
 }
+
+body {
+    line-height: 1.5;
+    font-size: 0.8em;
+    color: #777777;
+    background-image: url("../images/concrete_seamless.png");
+    background-repeat: repeat;
+    margin: 0 auto;
+    font-family: "Arial", "Helvetica Neue", "Helvetica, sans-serif";
+  }

@@ -26,10 +26,9 @@ nav.navbar.navbar-expand-lg{
 
 body {
     line-height: 1.5;
-    font-size: 0.8em;
+    font-size: 1em;
     color: #777777;
     background-image: url("../images/concrete_seamless.png");
     background-repeat: repeat;
-    margin: 0 auto;
     font-family: "Arial", "Helvetica Neue", "Helvetica, sans-serif";
   }

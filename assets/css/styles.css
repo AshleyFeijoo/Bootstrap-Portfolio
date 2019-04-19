@@ -14,21 +14,63 @@ nav.navbar.navbar-expand-lg{
     padding: 25px;
 }
 
+.head-one {
+    color: #4aaaa5;
+    border-bottom: #777 solid 1px;
+}
+
 .container{
 
         line-height: 1.5;
-        font-size: 0.8em;
+        height:100%;
         color: #777777;
         max-width:960px;
         background-color:white;
         font-family: "Arial", "Helvetica Neue", "Helvetica, sans-serif";
 }
 
+.footer{
+    margin-bottom:0;
+    color: #eeeeee;
+    background-color: #666;
+    border-top: #4aaaa5 8px solid;
+    height: 4em;
+    margin-top: 5em;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Georgia", Times, Times New Roman, serif;
+}
+
+h2 {
+  font-size: 1.8em;
+  color: #4aaaa5;
+}
+
 body {
     line-height: 1.5;
+    height:80%;
     font-size: 1em;
     color: #777777;
     background-image: url("../images/concrete_seamless.png");
     background-repeat: repeat;
-    font-family: "Arial", "Helvetica Neue", "Helvetica, sans-serif";
+    font-family: 'Source Sans Pro', sans-serif;
   }
+
+
+  /* Portfolio styles */
+  .thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+    background-color: #4aaaa5;
+    color: white;
+    padding:25px;
+}

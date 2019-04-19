@@ -1,17 +1,20 @@
-nav.navbar.navbar-expand-lg{
-    background-color:white;
-    padding:0;
+nav.navbar.navbar-expand-lg {
+    background-color: white;
+    padding: 0;
 
 
 }
 
 
 
-.head1{
+.head1 {
     color: #ffffff;
     background-color: #4aaaa5;
     display: inline-block;
     padding: 25px;
+    /* width: 15%; */
+    text-align: center;
+    /* margin-right: 2%; */
 }
 
 .head-one {
@@ -19,18 +22,18 @@ nav.navbar.navbar-expand-lg{
     border-bottom: #777 solid 1px;
 }
 
-.container{
+.container {
 
-        line-height: 1.5;
-        height:100%;
-        color: #777777;
-        max-width:960px;
-        background-color:white;
-        font-family: "Arial", "Helvetica Neue", "Helvetica, sans-serif";
+    line-height: 1.5;
+    height: 100%;
+    color: #777777;
+    max-width: 960px;
+    background-color: white;
+    font-family: "Arial", "Helvetica Neue", "Helvetica, sans-serif";
 }
 
-.footer{
-    margin-bottom:0;
+.footer {
+    margin-bottom: 0;
     color: #eeeeee;
     background-color: #666;
     border-top: #4aaaa5 8px solid;
@@ -41,27 +44,27 @@ nav.navbar.navbar-expand-lg{
 h1,
 h2,
 h3 {
-  font-family: "Georgia", Times, Times New Roman, serif;
+    font-family: "Georgia", Times, Times New Roman, serif;
 }
 
 h2 {
-  font-size: 1.8em;
-  color: #4aaaa5;
+    font-size: 1.4em;
+    color: #4aaaa5;
 }
 
 body {
     line-height: 1.5;
-    height:80%;
+    height: 80%;
     font-size: 1em;
     color: #777777;
     background-image: url("../images/concrete_seamless.png");
     background-repeat: repeat;
     font-family: 'Source Sans Pro', sans-serif;
-  }
+}
 
 
-  /* Portfolio styles */
-  .thumbnail {
+/* Portfolio styles */
+.thumbnail {
     position: relative;
 }
 
@@ -72,5 +75,18 @@ body {
     width: 100%;
     background-color: #4aaaa5;
     color: white;
-    padding:25px;
+    padding: 25px;
+}
+
+
+.card-text {
+    text-align: center;
+    width: 100%;
+    top: 65%;
+    position: absolute;
+    z-index: 1;
+    background-color: #4aaaa5;
+    margin: 0 auto;
+    color: white;
+    padding: 15px 0;
 }

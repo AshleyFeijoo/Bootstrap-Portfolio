@@ -24,14 +24,16 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-fixed-top">
-        <h1 class="head1 mx-auto h-100 m-0">Ash Feijoo</h1>
-        <ul class="nav mx-auto">
-            <li><a class="nav-link" href="index.html">About</a></li>
-            <li><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-            <li><a class="nav-link" href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+    <nav class="navbar navbar-expand-lg sticky-top row justify-content-center">
+        <div class="row3">
+         <h1 class="head1  m-0 col-md-4 float-left">Ash Feijoo</h1>
+         <ul class="nav col-md-4 float-right">
+             <li><a class="nav-link" href="index.html">About</a></li>
+             <li><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+             <li><a class="nav-link" href="contact.html">Contact</a></li>
+         </ul>
+     </div> 
+     </nav>
     <br>
     <br>
 
@@ -44,18 +46,17 @@
             <form class="col-lg-12 pr-5 pb-5">
                 <div class="form-group">
                     <label for="exampleInputName">Name</label>
-                    <input type="name" class="form-control" id="exampleInputName" placeholder="Name">
+                    <input type="name" class="form-control" id="exampleInputName">
                 </div>
                 <div class="form-group">
                     <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                        placeholder="Enter email">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                 </div>
                 <div class="form-group">
                     <label for="exampleFormControlTextarea1">Message</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary col-2">Submit</button>
+                <button type="submit" class="btn btn-primary col-md-2">Submit</button>
             </form>
 
 
@@ -70,8 +71,8 @@
 
     </div>
 
-    <footer class="footer navbar-fixed-bottom text-center mb-0">
-        <span class="text-muted"><em>Copyright</em></span>
+    <footer class="footer fixed-bottom text-center mb-0">
+        <span class="text-muted small"><em>Copyright©</em></span>
     </footer>
 
     <!-- Bootstrap scripts -->

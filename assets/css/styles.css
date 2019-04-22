@@ -24,7 +24,8 @@ body {
 nav.navbar.navbar-expand-lg {
   background-color: white;
   padding: 0;
-  border-bottom: 1px #eee solid;
+  border-bottom: 2px #eee solid;
+  height: 15vh;
 }
 
 li {
@@ -41,6 +42,7 @@ nav .navbar-nav li a {
 
 .row3 {
   width: 960px;
+  height: 15vh;
 }
 
 .navv {
@@ -48,7 +50,7 @@ nav .navbar-nav li a {
 }
 
 .nav {
-  padding: 1em;
+  padding: .5em;
   justify-content: center;
   font-size: 1.2em;
 }
@@ -56,9 +58,11 @@ nav .navbar-nav li a {
 .head1 {
   color: #ffffff;
   background-color: #4aaaa5;
-  display: inline-block;
-  padding: 25px;
+  display: inline-flex;
   text-align: center;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 .head-one {

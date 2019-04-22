@@ -21,6 +21,10 @@ body {
   font-family: "Source Sans Pro", sans-serif;
 }
 
+p{
+    font-family: "Comfortaa", cursive;
+}
+
 nav.navbar.navbar-expand-lg {
   background-color: white;
   padding: 0;

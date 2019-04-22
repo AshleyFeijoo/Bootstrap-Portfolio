@@ -53,6 +53,11 @@ nav .navbar-nav li a {
   width: 960px;
 }
 
+.card-img {
+    width: 17.125em;
+    height: 12.844em;
+}
+
 .nav {
   padding: .5em;
   justify-content: center;

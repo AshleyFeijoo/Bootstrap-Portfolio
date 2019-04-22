@@ -21,8 +21,8 @@ body {
   font-family: "Source Sans Pro", sans-serif;
 }
 
-p{
-    font-family: "Comfortaa", cursive;
+p {
+  font-family: "Comfortaa", cursive;
 }
 
 nav.navbar.navbar-expand-lg {
@@ -43,7 +43,8 @@ nav .navbar-nav li a {
   color: white !important;
 }
 
-.navbar{}
+.navbar {
+}
 
 .row3 {
   width: 960px;
@@ -54,18 +55,18 @@ nav .navbar-nav li a {
 }
 
 .card-img {
-    width: 17.125em;
-    height: 12.844em;
+  width: 17.125em;
+  height: 12.844em;
 }
 
 .nav {
-  padding: .5em;
+  padding: 0.5em;
   justify-content: center;
   font-size: 1.2em;
   background-color: #fff;
   z-index: 1;
   align-items: center;
-  align-items:center;
+  align-items: center;
 }
 
 .head1 {
@@ -75,7 +76,7 @@ nav .navbar-nav li a {
   text-align: center;
   justify-content: center;
   align-items: center;
-  padding: .8em;
+  padding: 0.8em;
 }
 
 .head-one {
@@ -169,7 +170,5 @@ img.img-fluid.float-left.col-lg-2 {
   font-weight: bold;
 }
 
-
-img:hover{
-    
+img:hover {
 }

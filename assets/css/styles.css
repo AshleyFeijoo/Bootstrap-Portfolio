@@ -29,7 +29,6 @@ nav.navbar.navbar-expand-lg {
   background-color: white;
   padding: 0;
   border-bottom: 2px #eee solid;
-  height: 15vh;
 }
 
 li {
@@ -43,6 +42,8 @@ li:last-child {
 nav .navbar-nav li a {
   color: white !important;
 }
+
+.navbar{}
 
 .row3 {
   width: 960px;
@@ -60,8 +61,12 @@ nav .navbar-nav li a {
 
 .nav {
   padding: .5em;
-  justify-content: center;
+  justify-content: flex-end;
   font-size: 1.2em;
+  background-color: #fff;
+  z-index: 1;
+  align-items: center;
+  align-items:center;
 }
 
 .head1 {
@@ -87,6 +92,7 @@ nav .navbar-nav li a {
   font-family: "Arial", "Helvetica Neue", "Helvetica, sans-serif";
   margin-bottom: 15%;
   padding: 1.5em;
+  margin-top: 2em;
 }
 
 .footer {
